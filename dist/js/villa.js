@@ -65,10 +65,7 @@ function colorFactory() {
     addStylesheetRules(villaApi);
 }
 
-start = performance.now();
 colorFactory();
-end = performance.now();
-//console.log(end - start);
 
 // Refresh the height-window value on resize
 window.onresize = function() {
