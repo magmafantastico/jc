@@ -1,0 +1,39 @@
+/*!
+ * Jornal da Comarca Nav v1.0.0 (http://getvilla.org/)
+ * Copyright 2013-2015 Noibe Developers
+ * Licensed under MIT (https://github.com/noibe/villa/blob/master/LICENSE)
+*/
+
+nav {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: .875em;
+	max-width: 60em;
+	margin: 0 auto;
+}
+
+nav ul {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li {
+	border-left: solid 1px #e0e0e0;
+	margin: .375em 0;
+}
+
+nav ul li:first-child {
+	border: none;
+}
+
+nav ul li a {
+	margin: 0 1em;
+	padding: 0 .5em;
+}
+
+nav ul li a:hover {
+	background-color: #e0e0e0;
+}

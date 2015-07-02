@@ -1,0 +1,18 @@
+/*!
+ * Jornal da Comarca Main v1.0.0 (http://getvilla.org/)
+ * Copyright 2013-2015 Noibe Developers
+ * Licensed under MIT (https://github.com/noibe/villa/blob/master/LICENSE)
+*/
+
+main {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 60em;
+	min-width: 36em;
+	margin: 1.5em auto 0;
+}

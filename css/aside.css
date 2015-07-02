@@ -1,0 +1,36 @@
+/*!
+ * Jornal da Comarca Aside v1.0.0 (http://getvilla.org/)
+ * Copyright 2013-2015 Noibe Developers
+ * Licensed under MIT (https://github.com/noibe/villa/blob/master/LICENSE)
+*/
+
+aside {
+	max-width: 18em;
+}
+
+aside .headline {}
+
+aside .headline .item {
+	border-bottom: solid 1px #e0e0e0;
+	color: #212121;
+	margin: 1px 0 2px;
+	padding: .875em 0;
+}
+
+aside .headline .item a {}
+
+aside .headline .item a .kicker {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+aside .headline .item a h3 {
+	font-size: 1.3125em;
+	line-height: 1.1;
+}
+
+aside .headline .item a:hover h3 {
+	text-decoration: underline;
+}
